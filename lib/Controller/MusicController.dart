@@ -48,6 +48,18 @@ class MusicController extends GetxController {
           url: 'https://cdn-preview-3.dzcdn.net/stream/c-3e0ecd7752409cb4ea6e14951d0a1d78-3.mp3',
           title: 'Meri Mehbooba',
           imageUrl: 'https://e-cdns-images.dzcdn.net/images/cover/1ee8f8f0da25fd2d1f2d076b29481e10/500x500-000000-80-0-0.jpg',
+        ), SongList(
+          url: 'https://cdn-preview-d.dzcdn.net/stream/c-d16f560566e73a6e07bce96bd3c70090-6.mp3',
+          title: 'Pearl Jam',
+          imageUrl: 'https://e-cdns-images.dzcdn.net/images/artist/3e279f4e0269fdb2733474ddfa074a91/500x500-000000-80-0-0.jpg',
+        ),SongList(
+          url: 'https://cdn-preview-d.dzcdn.net/stream/c-d901a34730b838a6f533bf582dc36011-2.mp3',
+          title: 'Mann Bharryaa 2.0 (From "Shershaah")',
+          imageUrl: 'https://e-cdns-images.dzcdn.net/images/artist/1fb221d10b16d5a9124c1d6d6638b980/250x250-000000-80-0-0.jpg',
+        ),SongList(
+          url: 'https://cdn-preview-a.dzcdn.net/stream/c-a9375a7d9cef0e85277627d792a3ef0f-3.mp3',
+          title: 'Filhall',
+          imageUrl: 'https://e-cdns-images.dzcdn.net/images/artist/1fb221d10b16d5a9124c1d6d6638b980/250x250-000000-80-0-0.jpg',
         ),
       ]);
 

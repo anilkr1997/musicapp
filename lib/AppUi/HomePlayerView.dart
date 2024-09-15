@@ -147,8 +147,8 @@ class HomePlayerView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Music Player',style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
-        backgroundColor: Colors.transparent,
+        title: const Text('MrAb Music Player',style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
+        backgroundColor: Colors.red,
         elevation: 0,
       ),
       extendBodyBehindAppBar: true,
@@ -161,6 +161,7 @@ class HomePlayerView extends StatelessWidget {
             CachedNetworkImage(
               imageUrl: currentSong.imageUrl,
               fit: BoxFit.cover,
+
               placeholder: (context, url) => const Center(child: CircularProgressIndicator()),
               errorWidget: (context, url, error) => const Icon(Icons.error),
             ),
@@ -170,7 +171,7 @@ class HomePlayerView extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [Colors.transparent, Colors.black.withOpacity(1)],
+                  colors: [Colors.grey, Colors.black.withOpacity(0.3)],
                 ),
               ),
             ),
@@ -203,7 +204,7 @@ class HomePlayerView extends StatelessWidget {
                   ),
                   // Mini player at the bottom
                   Container(
-                    color: Colors.black.withOpacity(0.8),
+                    color: Colors.red.withOpacity(0.8),
                     child: ListTile(
                       leading: Hero(
                         tag: 'albumArt',

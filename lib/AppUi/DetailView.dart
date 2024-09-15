@@ -39,9 +39,15 @@ class DetailView extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Row(
+
+                    child:
+
+
+                    Row(
+
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
+
                         IconButton(
                           icon: const Icon(Icons.arrow_back, color: Colors.white),
                           onPressed: () => Get.back(),
